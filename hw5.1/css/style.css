@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.container {
+    margin: 40px auto 0;
+    width: 95%;
+}
+.title {
+}
+.sub-text {
+    font-style: italic;
+    opacity: 0.6;
+}
+.content-text {
+    margin-top: 15px;
+    color: rgb(41, 41, 41);
+}
+.content-text--b {
+    font-weight: bold;
+}
+.content-text p:not(:last-child) {
+    margin-bottom: 15px;
+}
+.content-list {
+    margin-top: 15px;
+    padding: 25px 35px;
+
+    width: max-content;
+    background-color: #E9E9E9;
+    border: 1px solid #C4C4C4;
+}
+.content-list__title {
+    text-align: center;
+}
+.list-number {
+    padding: 0;
+    list-style-position: inside;
+}
+.list-number a {
+    text-decoration: none;
+}
+.list-number a:hover {
+    text-decoration: underline;
+}
+.list-number__item {
+}
+.list-number__link {
+}
+.content-title {
+    margin: 25px 0;
+}
+.content_sub-title {
+    margin-top: 25px;
+}
+.list-marker {
+}
+.list-marker__item {
+}
